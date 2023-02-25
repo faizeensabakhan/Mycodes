@@ -118,3 +118,17 @@
     margin: 5px;
     border-radius: 10px;
 }
+@media screen and (max-width:912px){
+    .imageback{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .image1{
+        width: 100%;
+    }
+    .right{
+        width: 40%;
+    }
+}
